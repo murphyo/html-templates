@@ -1,10 +1,5 @@
 {
   "name": "html-polymer",
-  "version": "0.5.4",
-  "homepage": "https://github.com/murphyo/html-templates",
-  "authors": [
-    "Murphy ORourke <morourke@redpointtech.com>"
-  ],
   "license": "MIT",
   "private": true,
   "dependencies": {
