@@ -17,6 +17,7 @@ html {
     font-smoothing: antialiased;
     overflow-y: scroll;
     -webkit-overflow-scrolling: touch;
+    font-size: 62.5%; /* 1rem = 10px */
 }
 
 :focus {
