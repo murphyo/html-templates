@@ -1,0 +1,32 @@
+@charset "UTF-8";
+/*----------Variables
+*/
+/*----------Effects
+*/
+/* line 14, ../scss/style.scss */
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* line 22, ../scss/style.scss */
+:focus {
+  outline: none;
+}
+
+/* line 26, ../scss/style.scss */
+a:hover {
+  cursor: pointer;
+}
+
+/* line 30, ../scss/style.scss */
+input {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/*----------Body
+*/

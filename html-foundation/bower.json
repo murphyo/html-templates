@@ -1,0 +1,9 @@
+{
+  "name": "html-foundation",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "foundation": "~5.3.0",
+    "jquery": "~1.11.1"
+  }
+}

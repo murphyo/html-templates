@@ -1,0 +1,13 @@
+{
+  "name": "html-angular",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "angular-animate": "~1.2.19",
+    "angular": "~1.2.19",
+    "jquery": "~1.11.1",
+    "modernizr": "~2.8.3",
+    "html5shiv": "~3.7.2",
+    "normalize.css": "~3.0.1"
+  }
+}
