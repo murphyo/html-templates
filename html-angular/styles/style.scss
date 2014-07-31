@@ -1,17 +1,34 @@
-@import 'mixins';
-@import 'normalize';
-@import 'reset';
-        
+@import 'mixins';        
 
 /*----------VARIABLES
 */
 
-$white: white;
-$black: black;
+$white: #ffffff;
+$black: #000000;
 
 
 /*----------EFFECTS
 */
+
+:focus,
+:active {
+    outline: none;
+}
+
+input {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+
+/*----------BODY
+*/
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
 
 html {
     -webkit-font-smoothing: antialiased; 
@@ -19,27 +36,25 @@ html {
     font-smoothing: antialiased;
     overflow-y: scroll;
     -webkit-overflow-scrolling: touch;
-    font-size: 62.5%; /* 1rem = 10px */
+    font-size: 62.5%; /* 1em = 10px */
+    font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    font-weight: 500;
 }
-
-:focus {
-    outline: none;
-}
-
-a:hover {
-	cursor: pointer;
-}
-
-input {
-	-webkit-box-sizing: border-box;
-    		box-sizing: border-box;
-}
-
-
-/*----------BODY
-*/
 
 body {
     
 }
 
+
+
+
+/*----------Media Queries
+*/
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+
+}
