@@ -1,5 +1,5 @@
 ##HTML5 Template
 
 **Includes:**  
-[Bootstrap](http://getbootstrap.com/) *v3.3.1*  
-[jQuery](http://jquery.com/) *v2.1*  
+[Bootstrap](http://getbootstrap.com/) *v3.2*  
+[jQuery](http://jquery.com/) *v1.11.1*  

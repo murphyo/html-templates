@@ -1,6 +1,6 @@
 ##HTML5 Template
 
 **Includes:**  
-[Angular](https://angularjs.org/) *v1.2.14*  
-[jQuery](http://jquery.com/) *v2.1*  
-[Modernizr](http://modernizr.com/) *v2.7.1*  
+[Angular](https://angularjs.org/) *v1.2.19*  
+[jQuery](http://jquery.com/) *v1.11.1*  
+[Modernizr](http://modernizr.com/) *v2.8.3*  
