@@ -1,6 +1,6 @@
 ##HTML5 Starter Templates
 
-###Frameworks
+###Features
 [Angular](https://angularjs.org/) *v1.2.19*  
 [Bootstrap](http://getbootstrap.com/) *v3.2*  
 [Foundation](http://foundation.zurb.com/) *v5.3*  
