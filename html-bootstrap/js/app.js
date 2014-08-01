@@ -1,7 +1,5 @@
-'use strict';
+var app = function() {
 
-window.jQuery(document).ready(function(/* $ */) {
-  
-  
+}
 
-});
+$(document).ready(app);

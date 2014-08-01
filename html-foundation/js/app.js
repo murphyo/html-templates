@@ -1,7 +1,6 @@
-'use strict';
-
-window.jQuery(document).ready(function(/* $ */) {
-  
+var app = function() {
   $(document).foundation();
 
-});
+}
+
+$(document).ready(app);
