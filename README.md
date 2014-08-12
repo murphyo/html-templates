@@ -14,12 +14,15 @@
 ###Bower
 Supports dependent package managing via [Bower](http://bower.io/).  
 
-**Update Packages**  
-``$ bower update <package name>``
+**Update Package**  
+``$ bower update <package name>``  
+
+**Update All Packages**  
+``$ bower update``
 
 
-###CSS  
-Requires [Compass](http://compass-style.org/) to process SCSS. 
+###CSS/SCSS  
+Requires a Sass pre-compiler, try [Compass](http://compass-style.org/) 
 
 - Normalize.css reset
 - Font Stack: Helvetica Neue, 1em=10px
