@@ -3,8 +3,8 @@
   "license": "MIT",
   "private": true,
   "dependencies": {
-    "bootstrap": "~3.2.0",
-    "jquery": "~1.11.1",
+    "bootstrap": "~3.3.5",
+    "jquery": "~1.11.3",
     "modernizr": "~2.8.3"
   }
 }
