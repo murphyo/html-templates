@@ -1,6 +1,5 @@
-##HTML5 Template
+##Foundation Template
 
 **Includes:**  
-[Foundation](http://foundation.zurb.com/) *v5.3*  
-[jQuery](http://jquery.com/) *v1.11.1*  
-[Modernizr](http://modernizr.com/) *v2.8.3*  
+[Foundation](http://foundation.zurb.com/)  
+[jQuery](http://jquery.com/)  

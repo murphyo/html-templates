@@ -1,7 +1,7 @@
 ##HTML5 Template
 
 **Includes:**  
-[HTML5 Shiv](https://github.com/aFarkas/html5shiv/) *v3.7.2*  
-[jQuery](http://jquery.com/) *v1.11.1*  
-[Modernizr](http://modernizr.com/) *v2.8.3*  
-[Normalize.css](http://necolas.github.io/normalize.css/) *v3.0.1*  
+[HTML5 Shiv](https://github.com/aFarkas/html5shiv/)  
+[jQuery](http://jquery.com/)  
+[Modernizr](http://modernizr.com/)  
+[Normalize.css](http://necolas.github.io/normalize.css/)  

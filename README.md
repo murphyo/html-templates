@@ -1,28 +1,23 @@
 ##HTML5 Starter Templates
 
 ###Features
-[Angular](https://angularjs.org/) *v1.2.19*  
-[Bootstrap](http://getbootstrap.com/) *v3.2*  
-[Foundation](http://foundation.zurb.com/) *v5.3*  
-[HTML5 Shiv](https://github.com/aFarkas/html5shiv/) *v3.7.2*  
-[jQuery](http://jquery.com/) *v1.11.1*  
-[Modernizr](http://modernizr.com/) *v2.8.3*  
-[Normalize.css](http://necolas.github.io/normalize.css/) *v3.0.1*  
-[Polymer](http://www.polymer-project.org/) *v0.3.3*  
+[Angular](https://angularjs.org/)  
+[Bootstrap](http://getbootstrap.com/)  
+[Foundation](http://foundation.zurb.com/)  
 
 
 ###Bower
 Supports dependent package managing via [Bower](http://bower.io/).  
 
-**Update Package**  
-``$ bower update <package name>``  
+**Update Individual Package**  
+``$ bower update <package name> --save``  
 
 **Update All Packages**  
-``$ bower update``
+``$ bower update --save``
 
 
-###CSS/SCSS  
-Requires a Sass pre-compiler, try [Compass](http://compass-style.org/) 
+###CSS/SASS  
+Setup for SASS 
 
 - Normalize.css reset
 - Font Stack: Helvetica Neue, 1em=10px
@@ -35,4 +30,4 @@ Requires a Sass pre-compiler, try [Compass](http://compass-style.org/)
 
 
 ###Javascript
-- Includes empty app function on $(document).ready
+- js/app.js for jQuery functions

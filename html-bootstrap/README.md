@@ -1,5 +1,6 @@
-##HTML5 Template
+##Bootstrap Template
 
-**Includes:**  
-[Bootstrap](http://getbootstrap.com/) *v3.2*  
-[jQuery](http://jquery.com/) *v1.11.1*  
+**Includes:**    
+[Bootstrap](http://getbootstrap.com/)  
+[jQuery](http://jquery.com/)  
+[Modernizr](http://modernizr.com/)  
