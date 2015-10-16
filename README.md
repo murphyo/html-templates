@@ -18,7 +18,7 @@ _Update All Packages_
 
 
 **CSS/SASS**    
-Setup for SASS  
+- Setup for SASS  
 - Normalize.css reset  
 - Mobile & Tablet Media Queries
 
