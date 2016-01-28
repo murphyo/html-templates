@@ -5,7 +5,6 @@
   "dependencies": {
     "jquery": "~1.11.3",
     "modernizr": "~2.8.3",
-    "html5shiv": "~3.7.2",
     "normalize.css": "~3.0.1"
   }
 }
