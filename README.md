@@ -1,10 +1,11 @@
 ##HTML5 Project Templates
 
 **Includes:**  
-[Angular](https://angularjs.org/)  
-[Bootstrap](http://getbootstrap.com/)  
-[Foundation](http://foundation.zurb.com/)  
-[Skeleton](http://getskeleton.com/)  
+1. Framework Free   
+2. [Angular](https://angularjs.org/)  
+3. [Bootstrap](http://getbootstrap.com/)  
+4. [Foundation](http://foundation.zurb.com/)  
+5. [Skeleton](http://getskeleton.com/)  
 
 
 **Bower**  
@@ -16,17 +17,15 @@ _Update Individual Package_
 _Update All Packages_  
 ``$ bower update --save``
 
-
 **CSS/SASS**    
 - Setup for SASS  
 - Normalize.css reset  
 - Mobile & Tablet Media Queries
 
-
 **HTML**  
-- Modernizr loaded asyncronously
-- HTML5 Shiv support for legacy browsers
-
+- Mobile optimized viewport  
+- Favicon & touch images included  
+- Modernizr loaded asyncronously   
 
 **Javascript**  
-- js/app.js for jQuery functions
+- js/app.js for Javascript functions
