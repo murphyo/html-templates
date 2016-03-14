@@ -1,6 +1,6 @@
 var app = function($) {
-  $(document).foundation();
+	$(document).foundation();
 
-}
+};
 
 $(document).ready(app);
