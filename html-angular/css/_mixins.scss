@@ -1,0 +1,27 @@
+@mixin box-sizing($box) {
+  -webkit-box-sizing: $box;
+     -moz-box-sizing: $box;
+       -o-box-sizing: $box;
+          box-sizing: $box;
+}
+
+@mixin font-smoothing($font) {
+  -webkit-font-smoothing: $font;
+     -moz-font-smoothing: $font;
+       -o-font-smoothing: $font;
+          font-smoothing: $font;
+}
+
+@mixin border-radius($radius) {
+ -webkit-border-radius: $radius;
+    -moz-border-radius: $radius;
+      -o-border-radius: $radius;
+         border-radius: $radius;
+}
+
+@mixin transition($transition) {
+  -webkit-transition: $transition;
+     -moz-transition: $transition;
+       -o-transition: $transition;
+          transition: $transition;
+}
