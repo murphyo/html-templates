@@ -3,8 +3,7 @@
   "license": "MIT",
   "private": true,
   "dependencies": {
-    "jquery": "~2.2.0",
-    "modernizr": "~2.8.3",
-    "normalize.css": "~3.0.2"
+    "jquery": "^3.2.1",
+    "normalize-css": "normalize.css#^6.0.0"
   }
 }

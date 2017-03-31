@@ -3,10 +3,9 @@
   "license": "MIT",
   "private": true,
   "dependencies": {
-    "angular-animate": "~1.4.9",
-    "angular": "~1.4.9",
-    "jquery": "~2.2.0",
-    "modernizr": "~2.8.3",
-    "normalize.css": "~3.0.2"
+    "angular": "^1.6.4",
+    "angular-animate": "^1.6.4",
+    "jquery": "^3.2.1",
+    "normalize-css": "normalize.css#^6.0.0"
   }
 }

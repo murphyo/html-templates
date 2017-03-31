@@ -2,10 +2,9 @@
 
 **Includes:**  
 1. Framework Free   
-2. [Angular](https://angularjs.org/)  
+2. [Angular v1](https://angularjs.org/)  
 3. [Bootstrap](http://getbootstrap.com/)  
-4. [Foundation](http://foundation.zurb.com/)  
-5. [Skeleton](http://getskeleton.com/)  
+4. [Semantic UI](https://semantic-ui.com/)  
 
 
 **Bower**  
