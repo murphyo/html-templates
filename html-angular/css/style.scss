@@ -35,7 +35,8 @@ body {
 
 html {
     text-rendering: optimizeLegibility;
-    @include font-smoothing(antialiased);
+    -webkit-font-smoothing: antialiased;
+	font-smoothing: antialiased;
     overflow-y: scroll;
     -webkit-overflow-scrolling: touch;
     font-family: "Myriad Set Pro", "Lucida Grande", "Helvetica Neue", "Helvetica", "Arial", "Verdana", "sans-serif";
