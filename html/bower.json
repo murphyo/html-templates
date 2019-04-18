@@ -1,9 +1,0 @@
-{
-  "name": "html",
-  "license": "MIT",
-  "private": true,
-  "dependencies": {
-    "jquery": "^3.2.1",
-    "normalize-css": "normalize.css#^6.0.0"
-  }
-}

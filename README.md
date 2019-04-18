@@ -6,18 +6,8 @@
 3. [Bootstrap](http://getbootstrap.com/)  
 4. [Semantic UI](https://semantic-ui.com/)  
 
-
-**Bower**  
-Supports dependency package managing via [Bower](http://bower.io/).  
-
-_Update Individual Package_  
-``$ bower update <package name> --save``  
-
-_Update All Packages_  
-``$ bower update --save``
-
-**CSS/SASS**    
-- Setup for SASS  
+**CSS/SCSS**    
+- Setup for SCSS  
 - Normalize.css reset  
 - Mobile & Tablet Media Queries
 
