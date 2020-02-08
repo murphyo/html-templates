@@ -1,20 +1,25 @@
 {
   "name": "html-plus",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "repository": {
-    "type": "",
-    "url": ""
-  },
+  "privacy": true,
   "scripts": {
     "start": "browser-sync start --server --files '**/*.css, **/*.html, **/*.js, !node_modules/**/*' --directory --port 7777 --browser 'Chrome'",
     "styles": "node-sass --watch app/scss -o app/css"
   },
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
     "browser-sync": "^2.26.7",
     "node-sass": "^4.13.1"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
