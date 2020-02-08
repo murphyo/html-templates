@@ -1,0 +1,41 @@
+// Fonts
+$baseFontSize: 16px;
+
+// Measurements
+$basePad: 8px;
+$pad--xxs: $basePad / 4;
+$pad--xs: $basePad / 2;
+$pad--s: $basePad;
+$pad--md: $basePad * 2;
+$pad--lg: $basePad * 3;
+$pad--xl: $basePad * 4;
+$pad--xxl: $basePad * 6;
+$pad--xxxl: $basePad * 9;
+
+:root {
+  // Colors
+  --white: #ffffff;
+  --black: #272727;
+  --background: #efefef;
+
+  // Measurements
+  --basePad--xxs: #{$pad--xxs};
+  --basePad--xs: #{$pad--xs};
+  --basePad--s: #{$pad--s};
+  --basePad--md: #{$pad--md};
+  --basePad--ld: #{$pad--lg};
+  --basePad--xl: #{$pad--xl};
+  --basePad--xxl: #{$pad--xxl};
+  --basePad--xxxl: #{$pad--xxxl};
+
+  // Interaction
+  --duration: 0.133s;
+  --duration--slow: 0.266s;
+  --ease-out: cubic-bezier(0.38, 0, 0.1, 1);
+  --ease-in: cubic-bezier(0.9, 0, 0.62, 1);
+  --ease-in-out: cubic-bezier(0.4, 0, 0.2, 1);
+
+  // Typography
+  --baseFontFamily: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif;
+  --baseFontSize: #{$baseFontSize};
+}
