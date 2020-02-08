@@ -1,20 +1,16 @@
 # HTML Project Templates
 
 **Includes:**  
-1. Framework Free  
-2. NPM, Browser-Sync, Node-Sass  
-2. [Angular v1](https://angularjs.org/)  
-3. [Bootstrap](http://getbootstrap.com/)  
-4. [Semantic UI](https://semantic-ui.com/)  
+1. html - jQuery  
+2. html-bootstrap - Bootstrap, jQuery  
+3. html-plus - NPM: Browser-Sync, Node-Sass   
+4. html-react - React   
 
 **CSS/SCSS**    
 - Setup for SASS
-- CDN Normalize
+- Normalize CSS
 - Includes Media Queries
 
-**HTML**  
-- Mobile optimized viewport
-
 **Javascript**  
-- js/app.js for Javascript functions
-- CDN Scripts
+- app.js for Javascript functions
+- CDN: Normalize, jQuery, Bootstrap
