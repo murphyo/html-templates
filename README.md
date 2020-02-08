@@ -1,6 +1,6 @@
-# HTML Project Templates
+# html templates
 
-**Includes:**  
+**Includes**  
 1. html - jQuery  
 2. html-bootstrap - Bootstrap, jQuery  
 3. html-plus - NPM: Browser-Sync, Node-Sass   
