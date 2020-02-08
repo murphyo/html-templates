@@ -1,6 +1,5 @@
-##Bootstrap Template
+# bootstrap html template
 
-**Includes:**    
+**Includes:**  
 [Bootstrap](http://getbootstrap.com/)  
-[jQuery](http://jquery.com/)  
-[Chart JS](http://chartjs.org/)
+[jQuery](http://jquery.com/)
