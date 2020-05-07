@@ -1,15 +1,16 @@
-/*jslint browser: true*/
-/*global $, jQuery*/
-
 // App function
-var app = function ($) {
+const app = function() {
 
 };
 
-// Run app function on ready
-$(document).ready(app);
+// Run app function
+app();
 
 // Resize behavior
-$(window).resize(function() {
+function reportWindowSize() {
+  const height = window.innerHeight;
+	const width = window.innerWidth;
+	// console.log(`${width} x ${height}`);
+}
 
-});
+window.onresize = reportWindowSize;
