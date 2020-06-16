@@ -1,25 +1,16 @@
 {
   "name": "html-plus",
   "version": "1.0.0",
-  "privacy": true,
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "start": "browser-sync start --server --files '**/*.css, **/*.html, **/*.js, !node_modules/**/*' --directory --port 7777 --browser 'Chrome'",
-    "styles": "node-sass --watch app/scss -o app/css"
+    "start": "parcel ./src/index.html",
+    "styles": "sass --watch ./src/styles/style.scss ./src/styles/style.css"
   },
   "devDependencies": {
-    "browser-sync": "^2.26.7",
-    "node-sass": "^4.14.1"
+    "parcel-bundler": "^1.12.4"
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  }
+  "browserslist": [
+    "last 1 chrome versions"
+  ]
 }

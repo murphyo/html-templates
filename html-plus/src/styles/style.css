@@ -16,65 +16,80 @@
   --ease-in: cubic-bezier(0.9, 0, 0.62, 1);
   --ease-in-out: cubic-bezier(0.4, 0, 0.2, 1);
   --baseFontFamily: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif;
-  --baseFontSize: 16px; }
+  --baseFontSize: 16px;
+}
 
 html {
   font-family: var(--baseFontFamily);
   line-height: 1.3;
   -webkit-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%; }
+  -ms-text-size-adjust: 100%;
+}
 
 html,
 body {
-  font-size: var(--baseFontSize); }
+  font-size: var(--baseFontSize);
+}
 
 body {
   font-size: var(--baseFontSize);
-  margin: 0; }
+  margin: 0;
+}
 
 h1 {
   font-size: 2em;
-  margin: .67em 0; }
+  margin: 0.67em 0;
+}
 
 figure {
-  margin: 0; }
+  margin: 0;
+}
 
 hr {
   overflow: visible;
   box-sizing: content-box;
-  height: 0; }
+  height: 0;
+}
 
 a {
   background-color: transparent;
-  -webkit-text-decoration-skip: objects; }
+  -webkit-text-decoration-skip: objects;
+}
 
 a:active,
 a:hover {
-  outline-width: 0; }
+  outline-width: 0;
+}
 
 b,
 strong {
-  font-weight: inherit; }
+  font-weight: inherit;
+}
 
 b,
 strong {
-  font-weight: bolder; }
+  font-weight: bolder;
+}
 
 small {
-  font-size: 80%; }
+  font-size: 80%;
+}
 
 sub,
 sup {
   font-size: 50%;
   line-height: 0;
   position: relative;
-  vertical-align: baseline; }
+  vertical-align: baseline;
+}
 
 sub {
-  bottom: -.25em; }
+  bottom: -0.25em;
+}
 
 sup {
-  top: -.9em; }
+  top: -0.9em;
+}
 
 button,
 input,
@@ -84,53 +99,62 @@ textarea {
   font-family: var(--baseFontFamily);
   font-size: 100%;
   line-height: 1.15;
-  margin: 0; }
+  margin: 0;
+}
 
 button,
 input {
-  overflow: visible; }
+  overflow: visible;
+}
 
 button,
 select {
-  text-transform: none; }
+  text-transform: none;
+}
 
 button,
-html [type='button'],
-[type='reset'],
-[type='submit'] {
-  -webkit-appearance: button; }
+html [type=button],
+[type=reset],
+[type=submit] {
+  -webkit-appearance: button;
+}
 
 button::-moz-focus-inner,
-[type='button']::-moz-focus-inner,
-[type='reset']::-moz-focus-inner,
-[type='submit']::-moz-focus-inner {
+[type=button]::-moz-focus-inner,
+[type=reset]::-moz-focus-inner,
+[type=submit]::-moz-focus-inner {
   padding: 0;
-  border-style: none; }
+  border-style: none;
+}
 
 button:-moz-focusring,
-[type='button']:-moz-focusring,
-[type='reset']:-moz-focusring,
-[type='submit']:-moz-focusring {
-  outline: 1px dotted ButtonText; }
+[type=button]:-moz-focusring,
+[type=reset]:-moz-focusring,
+[type=submit]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
 
 progress {
   display: inline-block;
-  vertical-align: baseline; }
+  vertical-align: baseline;
+}
 
 *,
 *::before,
 *::after {
   box-sizing: inherit;
-  font-feature-settings: 'kern';
+  font-feature-settings: "kern";
   font-kerning: normal;
   font-variant-ligatures: common-ligatures;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-smoothing: antialiased;
-  text-rendering: optimizeLegibility; }
+  text-rendering: optimizeLegibility;
+}
 
 body {
-  box-sizing: border-box; }
+  box-sizing: border-box;
+}
 
 img,
 canvas,
@@ -139,44 +163,57 @@ video,
 svg,
 object,
 embed {
-  max-width: 100%; }
+  max-width: 100%;
+}
 
 img,
 object,
 embed,
 video {
-  border: 0; }
+  border: 0;
+}
 
 svg {
-  fill: currentColor; }
-  svg:not(:root) {
-    overflow: hidden; }
+  fill: currentColor;
+}
+svg:not(:root) {
+  overflow: hidden;
+}
 
 .clickable,
 label,
-[type='button'],
-[type='submit'],
-[type='reset'],
+[type=button],
+[type=submit],
+[type=reset],
 button,
-[role='button'],
+[role=button],
 a {
-  cursor: pointer; }
+  cursor: pointer;
+}
 
 html {
   box-sizing: border-box;
   font-weight: 400;
   font-size: 16px;
-  color: var(--black); }
+  color: var(--black);
+  -webkit-font-feature-settings: "liga";
+  font-feature-settings: "liga";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+}
 
 *,
 *:before,
 *:after {
-  box-sizing: inherit; }
+  box-sizing: inherit;
+}
 
 body {
   min-height: calc(100vh - 100px);
   letter-spacing: -1px;
-  background: var(--background); }
+  background: var(--background);
+}
 
 h1,
 h2,
@@ -184,4 +221,7 @@ h3,
 h4,
 h5,
 h6 {
-  margin: 0; }
+  margin: 0;
+}
+
+/*# sourceMappingURL=style.css.map */
